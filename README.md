@@ -20,7 +20,7 @@
 
 ## Seoul National University Cafeteria Menu (Gwanak)
 
-This is an alfred workflow for checking cafeteria menu of SNU(Gwanak campus).
+This is an alfred workflow for checking menu of all cafeteria in SNU (Gwanak campus).
 
 #### Usage
 
