@@ -57,7 +57,7 @@ for cafe in range(2):
         cafeterias = html.fromstring(page2).xpath("//span[@class='left_text14']")
 
     for i in range(len(cafeterias)):
-        if (cafe == 0 and i == 5) or (cafe == 1 and i in [4,5,6,7,9]): continue
+        if (cafe == 1 and i in [4,5,6,8]): continue
 
         parent = cafeterias[i].getparent().getparent()
         cafeteria = cafeterias[i].text_content()
