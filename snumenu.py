@@ -62,7 +62,7 @@ for cafe in range(2):
         parent = cafeterias[i].getparent().getparent()
         cafeteria = cafeterias[i].text_content()
         breakfast = 'M:' + parent.getchildren()[2].text_content().replace('\n', '/')
-        lunch = 'L:' + parent.getchildren()[4].text_content().replace('\n>', '/')
+        lunch = 'L:' + parent.getchildren()[4].text_content().replace('\n', '/')
         dinner = 'D:' + parent.getchildren()[6].text_content().replace('\n', '/')
         if q == 'm':
             menu = breakfast
